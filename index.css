@@ -1,10 +1,22 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh; 
     margin: 0; 
     background-color: #000000e8;
+}
+#pagetitle{
+    color: white;
+    
+}
+#likeButton:hover{
+    background-color: rgba(29, 155, 155, 0.808);
+    color: white;
+    font-family: sans-serif;
+    box-shadow: -2px 5px 5px rgba(12, 68, 68, 0.438);
+    font-weight: bold;
 }
 .countnbutton{
     display: flex;
@@ -17,10 +29,10 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    border: solid 2px black;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: -5px 5px 5px rgba(255, 255, 255, 0.329);
 }
 .image-div{
     align-content:left ;
@@ -35,6 +47,9 @@ section{
     background-color: rgba(0, 128, 128, 0.514);
     border: 0;
     border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 #increment-text,#like {
     align-self:top;
